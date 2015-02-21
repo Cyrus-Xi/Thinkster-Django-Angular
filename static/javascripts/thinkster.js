@@ -3,10 +3,15 @@
 
     angular
         .module('thinkster', [
+            'thinkster.config',
             'thinkster.routes',
             'thinkster.authentication'
         ]);
 
     angular
         .module('thinkster.routes', ['ngRoute']);
+
+    angular
+        .module('thinkster.config', []);
+
 })();
